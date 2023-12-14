@@ -3,7 +3,7 @@
 
 This is a news research tool designed for information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-![](rockybot.jpg)
+![](image.png)
 
 ## Features
 
