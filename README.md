@@ -13,9 +13,9 @@ This is a news research tool designed for information retrieval. Users can input
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
   
 
-2.The web app will open in your browser.
+Upon running the main.py script, the web app will open in your browser.
 
-- On the sidebar, you can input URLs directly.
+- On the sidebar, one can input URLs directly.
 
 - Initiate the data loading and processing by clicking "Process URLs."
 
@@ -25,7 +25,7 @@ This is a news research tool designed for information retrieval. Users can input
 
 - The FAISS index will be saved in a local file path in pickle format for future use.
 - One can now ask a question and get the answer based on those news articles
-- In video tutorial, we used following news articles
+- These are the following news articles used for reference: 
   - https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
   - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
   - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
@@ -35,4 +35,4 @@ This is a news research tool designed for information retrieval. Users can input
 - main.py: The main Streamlit application script.
 - requirements.txt: A list of required Python packages for the project.
 - faiss_store_openai.pkl: A pickle file to store the FAISS index.
-- .env: Configuration file for storing your OpenAI API key.
+- .env: Configuration file for storing the OpenAI API key.
